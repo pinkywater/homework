@@ -1,0 +1,29 @@
+body {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    background: #43a8c7;
+    width: 1500px;
+    height: 500px;
+    border: 1px inset #000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: scroll;
+}
+
+.block {
+    background: #da539d;
+    max-width: 300px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 20px 5px 5px 10px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 30px;
+    
+}
