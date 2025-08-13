@@ -1,0 +1,35 @@
+body {
+    background: #7070b1;
+}
+
+
+
+.white {
+    height: 100px;
+    max-height: 100px;
+    width: auto;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    background-color: aliceblue;
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+
+  
+  
+}
+
+
+
+/* =================================================================== */
+
