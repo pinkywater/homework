@@ -14,7 +14,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .block-wrapper,
@@ -24,6 +24,7 @@ body {
 
 .title {
   text-align: center;
+  position: relative;
 }
 
 .text {
@@ -33,20 +34,20 @@ body {
 
 .title::before {
   content: "";
-  position: absolute;
   top: 50%;
   left: 50%;
   display: block;
   width: 80px;
   height: 80px;
-  background-color: rgb(226, 28, 87);
+  background-color: #e21c57;
   border-radius: 50px;
-  transform: translate(213px,-477px);
+  border-style: solid;
+  transform: translate(-92px, 84px);
+
 }
 
 .title::after {
   content: "";
-  position: absolute;
   top: 30%;
   left: 30%;
   display: block;
@@ -54,5 +55,6 @@ body {
   height: 80px;
   background-color: rgb(108, 11, 153);
   border-radius: 50px;
-  transform: translate(17px,-264px);
+  border-style: solid;
+  transform: translate(400px, -70px);
 }
