@@ -1,0 +1,48 @@
+body {
+    background-color: #503bad;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    background-color: rgb(20, 170, 197);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-size: 18px;
+    transition: color 0.6s ease;
+    position: relative;
+}
+
+.bar {
+    position: absolute;
+    bottom: 100%; 
+    width: 600px;
+    height: 20px;
+    background-color: azure;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s ease;
+    margin-bottom: 20px;
+    
+
+}
+
+.box:hover {
+    color: #751add;
+}
+
+.box:hover .bar {
+    transform: scaleX(1);
+}
